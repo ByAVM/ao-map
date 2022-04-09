@@ -4,9 +4,8 @@ import { defineConfig } from "vite";
 import { VitePWA } from "vite-plugin-pwa";
 import svgLoader from "vite-svg-loader";
 
-// https://vitejs.dev/config/
-
-export default defineConfig({
+export default defineConfig(({ mode }) => ({
+  base: mode === "production" ? "/ao-map/" : "/",
   plugins: [vue(), VitePWA({}), svgLoader()],
   resolve: {
     extensions: [".vue", ".js", ".css"],
@@ -14,4 +13,4 @@ export default defineConfig({
       "~": resolve(__dirname, "./src"),
     },
   },
-});
+}));

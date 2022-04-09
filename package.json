@@ -10,7 +10,8 @@
     "build": "vite build",
     "preview": "vite preview",
     "lint": "eslint --ext .js,.vue --ignore-path .gitignore --fix src",
-    "format": "prettier src  --write"
+    "format": "prettier src  --write",
+    "deploy": "node scripts/deploy-gh-pages.js"
   },
   "dependencies": {
     "axios": "^0.26.1",
@@ -29,6 +30,7 @@
     "eslint-config-vue": "^2.0.2",
     "eslint-plugin-prettier": "^4.0.0",
     "eslint-plugin-vue": "^8.6.0",
+    "execa": "^6.1.0",
     "prettier": "^2.6.2",
     "vite": "^2.8.0",
     "vite-plugin-pwa": "^0.11.13"
