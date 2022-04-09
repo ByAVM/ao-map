@@ -33,7 +33,8 @@ const props = defineProps({
   },
 });
 
-const imageFullPath = computed(() => `/resources/maps/${props.mapImage}`);
+// eslint-disable-next-line no-undef
+const imageFullPath = computed(() => `${BASE}resources/maps/${props.mapImage}`);
 const mapBounds = computed(() => [
   [0, 0],
   [props.mapSize.height, props.mapSize.width],

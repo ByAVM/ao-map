@@ -1,7 +1,9 @@
-/* eslint-disable no-undef */
 import axios from "axios";
 
-const axi = axios.create();
+const axi = axios.create({
+  // eslint-disable-next-line no-undef
+  baseURL: BASE
+});
 
 axi.interceptors.request.use(
   (request) => {
@@ -22,8 +24,8 @@ axi.interceptors.response.use(
 
 export const client = {
   // Misc
-  getLocations: () => axi.get(`${BASE}resources/data/locations.json`),
-  getIcons: () => axi.get(`${BASE}resources/data/icons.json`),
+  getLocations: () => axi.get(`resources/data/locations.json`),
+  getIcons: () => axi.get(`resources/data/icons.json`),
   // Details
-  getDetails: (slug) => axi.get(`${BASE}resources/data/details/${slug}.json`),
+  getDetails: (slug) => axi.get(`resources/data/details/${slug}.json`),
 };
