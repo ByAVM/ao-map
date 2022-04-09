@@ -1,5 +1,6 @@
 <script setup>
-import { onMounted, ref, provide, readonly } from "vue";
+import { onMounted, provide, readonly, ref } from "vue";
+
 import { client } from "./client";
 import AppLoader from "./components/AppLoader.vue";
 
@@ -16,13 +17,13 @@ onMounted(() => {
       iconsRef.value = icons;
       locationsRef.value = locations;
     })
-    .catch((error) => {});
+    .catch(() => {});
 });
 </script>
 
 <template>
   <router-view v-if="iconsRef && locationsRef" />
-  <div class="app-loading" v-else>
+  <div v-else class="app-loading">
     <app-loader />
   </div>
 </template>

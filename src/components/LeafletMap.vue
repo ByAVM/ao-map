@@ -1,7 +1,7 @@
 <script setup>
 import L from "leaflet";
+// eslint-disable-next-line no-unused-vars
 import * as ControlSearch from "leaflet-search";
-
 import { onMounted, ref, watch } from "vue";
 
 const emit = defineEmits(["click"]);
@@ -32,7 +32,7 @@ const props = defineProps({
   },
   bounds: {
     type: Array,
-    default: [
+    default: () => [
       [0, 0],
       [100, 100],
     ],
@@ -78,13 +78,13 @@ onMounted(() => {
       marker: false,
       zoom: 1,
       collapsed: false,
-      position: 'topright'
+      position: "topright",
     })
   );
 });
 
 const updateMap = () => {
-  const [_, bounds] = props.bounds;
+  const [, bounds] = props.bounds;
 
   map.value.setView([bounds[0] / 2, bounds[1] / 2], -1).setMaxBounds(bounds);
 };
