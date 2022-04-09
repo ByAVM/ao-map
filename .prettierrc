@@ -1,0 +1,6 @@
+{
+  "endOfLine": "lf",
+  "importOrder": ["^~/(.*)$", "^[./]"],
+  "importOrderSeparation": true,
+  "importOrderSortSpecifiers": true
+}
