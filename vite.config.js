@@ -7,6 +7,9 @@ import svgLoader from "vite-svg-loader";
 export default defineConfig(({ mode }) => ({
   base: mode === "production" ? "/ao-map/" : "/",
   plugins: [vue(), VitePWA({}), svgLoader()],
+  define: {
+    BASE: JSON.stringify(mode === "production" ? "/ao-map/" : "/"),
+  },
   resolve: {
     extensions: [".vue", ".js", ".css"],
     alias: {
