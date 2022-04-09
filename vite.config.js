@@ -16,4 +16,12 @@ export default defineConfig(({ mode }) => ({
       "~": resolve(__dirname, "./src"),
     },
   },
+  build: {
+    rollupOptions: {
+      input: {
+        main: resolve(__dirname, 'index.html'),
+        notfound: resolve(__dirname, '404.html')
+      }
+    }
+  }
 }));
