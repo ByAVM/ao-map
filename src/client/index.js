@@ -1,3 +1,4 @@
+/* eslint-disable no-undef */
 import axios from "axios";
 
 const axi = axios.create();
@@ -21,9 +22,8 @@ axi.interceptors.response.use(
 
 export const client = {
   // Misc
-  getLocations: () => axi.get("/resources/data/locations.json"),
-  getFilters: () => axi.get("/resources/data/filters.json"),
-  getIcons: () => axi.get("/resources/data/icons.json"),
+  getLocations: () => axi.get(`${BASE}resources/data/locations.json`),
+  getIcons: () => axi.get(`${BASE}resources/data/icons.json`),
   // Details
-  getDetails: (slug) => axi.get(`/resources/data/details/${slug}.json`),
+  getDetails: (slug) => axi.get(`${BASE}resources/data/details/${slug}.json`),
 };
