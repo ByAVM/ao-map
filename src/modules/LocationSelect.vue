@@ -1,14 +1,15 @@
 <script setup>
-import { onMounted, reactive, inject, watch } from "vue";
+import { inject, onMounted, reactive, watch } from "vue";
 import { useRouter } from "vue-router";
+
 import BaseSelect from "~/components/BaseSelect.vue";
 
 const props = defineProps({
   value: {
     type: String,
-    required: true
+    required: true,
   },
-})
+});
 
 const router = useRouter();
 
@@ -38,7 +39,7 @@ const formatTitle = (location) => {
 
 watch(
   () => state.current,
-  (location) => router.push({name: 'map', params: {location: location.slug}})
+  (location) => router.push({ name: "map", params: { location: location.slug } })
 );
 
 const filter = (item, filterValue) => {
@@ -61,7 +62,7 @@ const grouper = (groups, item) => {
         <span class="location-select__item-text" v-text="formatTitle(item)"></span>
       </div>
     </template>
-    <template v-slot="{ item }">
+    <template #default="{ item }">
       <div class="location-select__item">
         <span class="location-select__item-text" v-text="formatTitle(item)"></span>
       </div>

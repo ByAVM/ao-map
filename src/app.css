@@ -77,7 +77,8 @@ hr {
   background-color: var(--danger);
 }
 
-.app-popup-content h3, .app-popup-content h4 {
+.app-popup-content h3,
+.app-popup-content h4 {
   margin-top: 0;
   margin-bottom: 4px;
 }
@@ -85,7 +86,6 @@ hr {
   margin: 0;
   font-style: italic;
 }
-
 
 /* Оформление карты */
 .leaflet-popup-content-wrapper {
@@ -105,20 +105,20 @@ hr {
   background-color: transparent;
   border: none;
   min-width: 160px;
-  color: var(--white)
+  color: var(--white);
 }
 .leaflet-control-search .search-input:focus {
   outline: none;
 }
 .leaflet-control-search .search-button {
-  background: url('assets/search.svg');
+  background: url("assets/search.svg");
   background-size: 25px;
   background-position: center;
   background-repeat: no-repeat;
   color: var(--white);
 }
 .leaflet-control-search .search-button:hover {
-  background: url('assets/search.svg');
+  background: url("assets/search.svg");
   background-size: 25px;
   background-position: center;
   background-repeat: no-repeat;

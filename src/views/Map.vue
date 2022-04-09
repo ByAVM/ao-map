@@ -1,11 +1,12 @@
 <script setup>
-import { reactive, onMounted, watch, ref, onBeforeUnmount } from "vue";
+import { onBeforeUnmount, onMounted, reactive, ref, watch } from "vue";
+
+import Chevron from "~/assets/chevron.svg";
 import { client } from "~/client/index";
-import { validateMarker } from "~/utils/markers";
 import NewMarkerForm from "~/components/NewMarkerForm.vue";
 import ConfiguredMap from "~/modules/ConfiguredMap.vue";
 import LocationSelect from "~/modules/LocationSelect.vue";
-import Chevron from "~/assets/chevron.svg";
+import { validateMarker } from "~/utils/markers";
 
 const props = defineProps({
   location: {
@@ -152,18 +153,18 @@ const handleButtonScroll = () => {
 
 <template>
   <div class="scrollButton" @click="handleButtonScroll">
-    <Chevron :class="{ arrow: true, 'arrow__up': scrolled }" />
+    <Chevron :class="{ arrow: true, arrow__up: scrolled }" />
   </div>
 
   <main class="grid">
     <configured-map
-      class="map"
       v-if="state.locationDetails"
+      class="map"
       v-bind="state.locationDetails"
+      :temp-marker="state.tempMarker"
+      :additional-markers="state.lsMarkers"
       @click="handleMapClick"
       @select-marker="handleSelectMarker"
-      :tempMarker="state.tempMarker"
-      :additionalMarkers="state.lsMarkers"
     />
 
     <div class="sidebar">

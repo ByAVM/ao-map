@@ -2,7 +2,7 @@
 import IconSelect from "~/modules/IconSelect.vue";
 import { makeSlug } from "~/utils/markers";
 
-const emit = defineEmits(["update:modelValue", 'submit', 'decline']);
+const emit = defineEmits(["update:modelValue", "submit", "decline"]);
 
 const props = defineProps({
   modelValue: {
@@ -11,28 +11,28 @@ const props = defineProps({
 });
 
 const handleUpdate = (field, payload) => {
-  const newValue = {...props.modelValue}
+  const newValue = { ...props.modelValue };
 
-  if (field === 'title') {
-    newValue.slug = makeSlug(payload)
+  if (field === "title") {
+    newValue.slug = makeSlug(payload);
   }
-  newValue[field] = payload
+  newValue[field] = payload;
   emit("update:modelValue", newValue);
 };
 
 const handleSubmit = () => {
-  emit('submit', props.modelValue)
+  emit("submit", props.modelValue);
 };
 const handleDecline = () => {
-  emit('decline')
-}
+  emit("decline");
+};
 </script>
 
 <template>
   <form @submit.prevent="handleSubmit">
     <div class="app-form-control">
       <label class="app-label">Иконка маркера</label>
-      <icon-select @change="(i) => handleUpdate('type', i.type)" :default="props.modelValue.type" />
+      <icon-select :default="props.modelValue.type" @change="(i) => handleUpdate('type', i.type)" />
     </div>
 
     <div class="app-form-control">
@@ -57,6 +57,8 @@ const handleDecline = () => {
     </div>
 
     <button class="app-button app-button__primary" type="submit">Добавить</button>
-    <button class="app-button app-button__secodary" type="button" @click="handleDecline">Отмена</button>
+    <button class="app-button app-button__secodary" type="button" @click="handleDecline">
+      Отмена
+    </button>
   </form>
 </template>

@@ -1,6 +1,7 @@
 <script setup>
-import { reactive, computed, ref } from "vue";
-import { useClickOutside } from "../hooks/useClickOutside";
+import { computed, reactive, ref } from "vue";
+
+import { useClickOutside } from "~/hooks/useClickOutside";
 
 const emit = defineEmits(["update:modelValue"]);
 
@@ -73,9 +74,9 @@ useClickOutside(selectRef, handleCollapse);
 </script>
 
 <template>
-  <div class="app-select" ref="selectRef">
+  <div ref="selectRef" class="app-select">
     <div class="app-select__current" @click="handleExpand">
-      <slot name="selected" :item="props.modelValue" v-if="props.modelValue"></slot>
+      <slot v-if="props.modelValue" name="selected" :item="props.modelValue"></slot>
     </div>
 
     <div
@@ -84,38 +85,47 @@ useClickOutside(selectRef, handleCollapse);
         'app-select__dropdown__expanded': state.expanded,
       }"
     >
-    <div v-if="props.filter" class="app-select__filter">
-      <input class="app-input app-select__filter-input" type="text" placeholder="Поиск локации" v-model="state.filterValue" />
-    </div>
+      <div v-if="props.filter" class="app-select__filter">
+        <input
+          v-model="state.filterValue"
+          class="app-input app-select__filter-input"
+          type="text"
+          placeholder="Поиск локации"
+        />
+      </div>
 
-    <div class="app-select__dropdown-scroll">
-      <div v-if="props.groupBy" class="app-select__dropdown-groups">
-        <div v-for="[group, items] in groupedItems" :key="group" class="app-select__dropdown-group">
-          <div class="app-select__dropdown-group-title" v-text="group" />
+      <div class="app-select__dropdown-scroll">
+        <div v-if="props.groupBy" class="app-select__dropdown-groups">
+          <div
+            v-for="[group, groupItems] in groupedItems"
+            :key="group"
+            class="app-select__dropdown-group"
+          >
+            <div class="app-select__dropdown-group-title" v-text="group" />
 
-          <div class="app-select__dropdown-items">
-            <div
-              v-for="item in items"
-              class="app-select__dropdown-item"
-              :key="item[props.keyValue]"
-              @click="handleSelect(item)"
-            >
-              <slot :item="item" />
+            <div class="app-select__dropdown-items">
+              <div
+                v-for="item in groupItems"
+                :key="item[props.keyValue]"
+                class="app-select__dropdown-item"
+                @click="handleSelect(item)"
+              >
+                <slot :item="item" />
+              </div>
             </div>
           </div>
         </div>
-      </div>
-      <div v-else class="app-select__dropdown-items">
-        <div
-          v-for="item in groupedItems"
-          class="app-select__dropdown-item"
-          :key="item[props.keyValue]"
-          @click="handleSelect(item)"
-        >
-          <slot :item="item" />
+        <div v-else class="app-select__dropdown-items">
+          <div
+            v-for="item in groupedItems"
+            :key="item[props.keyValue]"
+            class="app-select__dropdown-item"
+            @click="handleSelect(item)"
+          >
+            <slot :item="item" />
+          </div>
         </div>
       </div>
-    </div>
     </div>
   </div>
 </template>
@@ -152,8 +162,6 @@ useClickOutside(selectRef, handleCollapse);
 .app-select__dropdown-groups {
   padding-bottom: 8px;
 }
-.app-select__dropdown-group {
-}
 .app-select__dropdown-group-title {
   padding: 4px 8px;
   margin-bottom: 4px;
@@ -167,8 +175,6 @@ useClickOutside(selectRef, handleCollapse);
 .app-select__filter-input {
   display: block;
   width: 100%;
-}
-.app-select__dropdown-items {
 }
 .app-select__dropdown-item {
   cursor: pointer;

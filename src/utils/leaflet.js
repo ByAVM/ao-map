@@ -1,6 +1,6 @@
 import L from "leaflet";
-import * as DomEvent from 'leaflet/src/dom/DomEvent';
-import {Path} from 'leaflet/src/layer/vector/Path';
+import * as DomEvent from "leaflet/src/dom/DomEvent";
+import { Path } from "leaflet/src/layer/vector/Path";
 
 const AppIcon = L.Icon.extend({
   options: {

@@ -1,10 +1,10 @@
 <script setup>
 import L from "leaflet";
-import * as ControlSearch from "leaflet-search";
-import { computed, watch, ref, reactive, inject } from "vue";
+import { computed, inject, reactive, ref, watch } from "vue";
+
+import LeafletMap from "~/components/LeafletMap.vue";
 import { appIcon, appMarker } from "~/utils/leaflet";
 import { createPopupForMarker } from "~/utils/markers";
-import LeafletMap from "~/components/LeafletMap.vue";
 
 const icons = inject("icons");
 
@@ -66,8 +66,7 @@ const createMarker = (marker) => {
     selectHandler: () => emit("selectMarker", marker),
     title: marker.title,
     icon: appIcon({ iconSrc: icons.value[marker.type].image }),
-  })
-    .bindPopup(createPopupForMarker(marker));
+  }).bindPopup(createPopupForMarker(marker));
 };
 
 const mapMarkers = computed(() => {

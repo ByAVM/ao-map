@@ -68,7 +68,6 @@ const translitMap = Object.freeze({
   k: "k",
   l: "l",
   m: "m",
-  m: "m",
   n: "n",
   o: "o",
   p: "p",

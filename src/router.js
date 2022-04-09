@@ -4,11 +4,11 @@ export const router = createRouter({
   history: createWebHistory(),
   routes: [
     {
-      path: '/:location',
-      name: 'map',
-      component: () => import('~/views/Map.vue'),
-      props: true
+      path: "/:location",
+      name: "map",
+      component: () => import("~/views/Map.vue"),
+      props: true,
     },
-    { path: '/:pathMatch(.*)*', name: 'not-found', redirect: '/svetolesye' },
-  ]
-})
+    { path: "/:pathMatch(.*)*", name: "not-found", redirect: "/svetolesye" },
+  ],
+});
