@@ -1,6 +1,7 @@
 import("execa").then(async ({ execa }) => {
   (async () => {
     try {
+      await execa("git", ["checkout", "--orphan", "gh-pages"]);
       console.log("Starting deployment..");
       await execa("git", ["--work-tree", "dist", "add", "--all"]);
       await execa("git", ["--work-tree", "dist", "commit", "-m", "gh-pages"]);
