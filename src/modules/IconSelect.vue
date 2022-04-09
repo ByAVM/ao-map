@@ -20,7 +20,8 @@ const state = reactive({
 });
 
 const imageFullPath = (image) => {
-  return `/resources/markers/${image}`;
+  // eslint-disable-next-line no-undef
+  return `${BASE}resources/markers/${image}`;
 };
 
 watch(

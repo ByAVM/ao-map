@@ -1,7 +1,8 @@
 import { createRouter, createWebHistory } from "vue-router";
 
 export const router = createRouter({
-  history: createWebHistory(),
+  // eslint-disable-next-line no-undef
+  history: createWebHistory(BASE),
   routes: [
     {
       path: "/:location",

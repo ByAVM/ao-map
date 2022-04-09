@@ -13,7 +13,8 @@ const AppIcon = L.Icon.extend({
   createShadow: function () {},
   _getIconUrl: function (name) {
     const image = this.options[name + "Src"];
-    return `/resources/markers/${image}`;
+    // eslint-disable-next-line no-undef
+    return `${BASE}resources/markers/${image}`;
   },
 });
 
