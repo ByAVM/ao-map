@@ -1,0 +1,12 @@
+{
+  "groupName": "Дальний астрал",
+  "slug": "oskolok_yazesa",
+  "title": "Осколок Язеса",
+  "levels": "38-40",
+  "mapImage": "Pastel18_AC4.jpg",
+  "mapSize": {
+    "width": 1024,
+    "height": 886
+  },
+  "markers": []
+}

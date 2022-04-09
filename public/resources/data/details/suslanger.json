@@ -1,0 +1,12 @@
+{
+  "groupName": "Суслангер",
+  "slug": "suslanger",
+  "title": "Суслангер",
+  "levels": "90-95",
+  "mapImage": "Suslanger.jpg",
+  "mapSize": {
+    "width": 1024,
+    "height": 886
+  },
+  "markers": []
+}

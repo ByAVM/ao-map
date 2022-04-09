@@ -1,0 +1,11 @@
+{
+  "slug": "siveriya",
+  "title": "Сиверия",
+  "levels": "12-16",
+  "mapImage": "Pastel03_ZL2.jpg",
+  "mapSize": {
+    "width": 1024,
+    "height": 886
+  },
+  "markers": []
+}

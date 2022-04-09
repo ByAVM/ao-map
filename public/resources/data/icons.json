@@ -1,0 +1,107 @@
+{
+  "default": {
+    "title": "Метка",
+    "image": "MarkGroupMate.png",
+    "type": "default"
+  },
+  "solo_quest": {
+    "title": "Одиночный квест",
+    "image": "QuestHighSoloCommon.png",
+    "type": "solo_quest"
+  },
+  "solo_secrets_quest": {
+    "title": "Тайны мира (одиночный)",
+    "image": "QuestHighSoloSecret.png",
+    "type": "solo_secrets_quest"
+  },
+  "trainer": {
+    "title": "Наставник",
+    "image": "MarkTrainer.png",
+    "type": "trainer"
+  },
+  "trader": {
+    "title": "Торговец",
+    "image": "MarkTrader.png",
+    "type": "trader"
+  },
+  "myrrh": {
+    "title": "Торговец миррой",
+    "image": "MarkMyrrh.png",
+    "type": "myrrh"
+  },
+  "consumable": {
+    "title": "Торговец расходниками",
+    "image": "MarkConsumable.png",
+    "type": "consumable"
+  },
+  "crafting": {
+    "title": "Ремесленник",
+    "image": "MarkCrafting.png",
+    "type": "crafting"
+  },
+  "guild": {
+    "title": "Регистратор гильдий",
+    "image": "MarkGuild.png",
+    "type": "guild"
+  },
+  "quest_secret": {
+    "title": "Тайны мира",
+    "image": "MarkHasQuestSecret.png",
+    "type": "quest_secret"
+  },
+  "teleporter": {
+    "title": "Мастер телепортации",
+    "image": "MarkTeleporter.png",
+    "type": "teleporter"
+  },
+  "mail": {
+    "title": "Почтальон",
+    "image": "MarkMail.png",
+    "type": "mail"
+  },
+  "badge_seller": {
+    "title": "Торговец редкостями",
+    "image": "MarkBadgeSeller.png",
+    "type": "badge_seller"
+  },
+  "change_room": {
+    "title": "Комната изменений",
+    "image": "MarkChangeRoom.png",
+    "type": "change_room"
+  },
+  "remort": {
+    "title": "Специалист по необъяснимому",
+    "image": "MarkRemort.png",
+    "type": "remort"
+  },
+  "reputation": {
+    "title": "Интендант",
+    "image": "MarkReputation.png",
+    "type": "reputation"
+  },
+  "rune_seller": {
+    "title": "Торговец рунами",
+    "image": "MarkRuneSeller.png",
+    "type": "rune_seller"
+  },
+  "auction": {
+    "title": "Аукцион",
+    "image": "MarkAuction.png",
+    "type": "auction"
+  },
+  "safe": {
+    "title": "Банкир",
+    "image": "MarkSafe.png",
+    "type": "safe"
+  },
+  "spouse": {
+    "title": "Регистратор брака",
+    "image": "MarkSpouse.png",
+    "type": "spouse"
+  },
+  "upgrader": {
+    "title": "Мастер улучшений",
+    "image": "MarkUpgrader.png",
+    "type": "upgrader"
+  }
+}

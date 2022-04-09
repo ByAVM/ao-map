@@ -1,0 +1,12 @@
+{
+  "groupName": "Эдем",
+  "slug": "edem",
+  "title": "Эдем",
+  "levels": "90-95",
+  "mapImage": "Eden.jpg",
+  "mapSize": {
+    "width": 1024,
+    "height": 886
+  },
+  "markers": []
+}

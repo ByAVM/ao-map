@@ -1,0 +1,12 @@
+{
+  "groupName": "Феррис",
+  "slug": "laboratornyy_kompleks",
+  "title": "Лабораторный комплекс",
+  "levels": "64-64",
+  "mapImage": "Ferris03.jpg",
+  "mapSize": {
+    "width": 1024,
+    "height": 886
+  },
+  "markers": []
+}

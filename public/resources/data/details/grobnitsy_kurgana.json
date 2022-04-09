@@ -1,0 +1,12 @@
+{
+  "groupName": "Древний Курган",
+  "slug": "grobnitsy_kurgana",
+  "title": "Гробницы Кургана",
+  "levels": "",
+  "mapImage": "UmoirMound.jpg",
+  "mapSize": {
+    "width": 1024,
+    "height": 886
+  },
+  "markers": []
+}

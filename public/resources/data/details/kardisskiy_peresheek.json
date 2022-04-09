@@ -1,0 +1,12 @@
+{
+  "groupName": "Аммра",
+  "slug": "kardisskiy_peresheek",
+  "title": "Кардисский перешеек",
+  "levels": "71-71",
+  "mapImage": "AedIsle_Hunters.jpg",
+  "mapSize": {
+    "width": 1024,
+    "height": 886
+  },
+  "markers": []
+}

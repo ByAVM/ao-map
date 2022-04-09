@@ -1,0 +1,12 @@
+{
+  "groupName": "Архипелаги Империи",
+  "slug": "dikiye_ostrova",
+  "title": "Дикие острова",
+  "levels": "20-21",
+  "mapImage": "Pastel11_AE2.jpg",
+  "mapSize": {
+    "width": 1024,
+    "height": 886
+  },
+  "markers": []
+}

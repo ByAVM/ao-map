@@ -1,0 +1,12 @@
+{
+  "groupName": "Архипелаги Лиги",
+  "slug": "novaya_zemlya",
+  "title": "Новая Земля",
+  "levels": "16-19",
+  "mapImage": "Pastel04_AL2.jpg",
+  "mapSize": {
+    "width": 1024,
+    "height": 886
+  },
+  "markers": []
+}

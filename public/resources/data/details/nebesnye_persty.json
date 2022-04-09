@@ -1,0 +1,12 @@
+{
+  "groupName": "Аммра",
+  "slug": "nebesnye_persty",
+  "title": "Небесные персты",
+  "levels": "70-70",
+  "mapImage": "AedIsle_Faction.jpg",
+  "mapSize": {
+    "width": 1024,
+    "height": 886
+  },
+  "markers": []
+}

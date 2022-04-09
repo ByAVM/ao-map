@@ -1,0 +1,12 @@
+{
+  "groupName": "Империя",
+  "slug": "severny_platsdarm",
+  "title": "Северный плацдарм",
+  "levels": "11-15",
+  "mapImage": "Pastel08_ZE2_North.jpg",
+  "mapSize": {
+    "width": 1024,
+    "height": 886
+  },
+  "markers": []
+}

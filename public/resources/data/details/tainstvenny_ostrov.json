@@ -1,0 +1,12 @@
+{
+  "groupName": "Архипелаги Лиги",
+  "slug": "tainstvenny_ostrov",
+  "title": "Таинственный остров",
+  "levels": "4-7",
+  "mapImage": "Pastel01_AL1.jpg",
+  "mapSize": {
+    "width": 1024,
+    "height": 886
+  },
+  "markers": []
+}

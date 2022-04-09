@@ -1,0 +1,12 @@
+{
+  "groupName": "Дальний астрал",
+  "slug": "ruiny_al-riata",
+  "title": "Руины Ал-Риата",
+  "levels": "",
+  "mapImage": "HuntingGround04.jpg",
+  "mapSize": {
+    "width": 1024,
+    "height": 886
+  },
+  "markers": []
+}

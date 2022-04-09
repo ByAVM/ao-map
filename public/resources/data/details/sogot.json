@@ -1,0 +1,12 @@
+{
+  "groupName": "Обитель демонов",
+  "slug": "sogot",
+  "title": "Согот",
+  "levels": "75-80",
+  "mapImage": "ZC14.jpg",
+  "mapSize": {
+    "width": 1024,
+    "height": 886
+  },
+  "markers": []
+}

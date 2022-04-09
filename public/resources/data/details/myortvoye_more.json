@@ -1,0 +1,12 @@
+{
+  "groupName": "Империя",
+  "slug": "myortvoye_more",
+  "title": "Мёртвое море",
+  "levels": "16-19",
+  "mapImage": "Pastel10_ZE3.jpg",
+  "mapSize": {
+    "width": 1024,
+    "height": 886
+  },
+  "markers": []
+}

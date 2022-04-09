@@ -1,0 +1,12 @@
+{
+  "groupName": "Айрин",
+  "slug": "podzemelya_ayrina",
+  "title": "Подземелья Айрина",
+  "levels": "90-90",
+  "mapImage": "Airin_Dungeon.jpg",
+  "mapSize": {
+    "width": 1024,
+    "height": 886
+  },
+  "markers": []
+}

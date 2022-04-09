@@ -1,0 +1,12 @@
+{
+  "groupName": "Лига",
+  "slug": "temnovodye",
+  "title": "Темноводье",
+  "levels": "19-22",
+  "mapImage": "Pastel05_ZL3.jpg",
+  "mapSize": {
+    "width": 1024,
+    "height": 886
+  },
+  "markers": []
+}

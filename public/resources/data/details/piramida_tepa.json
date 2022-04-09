@@ -1,0 +1,12 @@
+{
+  "groupName": "Архипелаги Империи",
+  "slug": "piramida_tepa",
+  "title": "Пирамида Тэпа",
+  "levels": "15-17",
+  "mapImage": "Pastel09_AE1_TepPyramid.jpg",
+  "mapSize": {
+    "width": 1024,
+    "height": 886
+  },
+  "markers": []
+}

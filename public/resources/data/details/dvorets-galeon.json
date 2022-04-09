@@ -1,0 +1,12 @@
+{
+  "groupName": "Айрин",
+  "slug": "dvorets-galeon",
+  "title": "Дворец-Галеон",
+  "levels": "90-90",
+  "mapImage": "Airin_Galeon_Indoor.jpg",
+  "mapSize": {
+    "width": 1024,
+    "height": 886
+  },
+  "markers": []
+}

@@ -1,0 +1,12 @@
+{
+  "groupName": "Аммра",
+  "slug": "kolizey",
+  "title": "Колизей",
+  "levels": "73-73",
+  "mapImage": "AedIsle_GladiatorArena.jpg",
+  "mapSize": {
+    "width": 1024,
+    "height": 886
+  },
+  "markers": []
+}

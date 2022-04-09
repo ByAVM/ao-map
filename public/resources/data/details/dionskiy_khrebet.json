@@ -1,0 +1,12 @@
+{
+  "groupName": "Аммра",
+  "slug": "dionskiy_khrebet",
+  "title": "Дионский хребет",
+  "levels": "71-72",
+  "mapImage": "AedIsle_Capital.jpg",
+  "mapSize": {
+    "width": 1024,
+    "height": 886
+  },
+  "markers": []
+}

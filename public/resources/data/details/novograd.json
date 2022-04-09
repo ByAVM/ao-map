@@ -1,0 +1,12 @@
+{
+  "groupName": "Лига",
+  "slug": "novograd",
+  "title": "Новоград",
+  "levels": "",
+  "mapImage": "Pastel02A_KC.jpg",
+  "mapSize": {
+    "width": 1024,
+    "height": 886
+  },
+  "markers": []
+}
