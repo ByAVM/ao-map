@@ -1,6 +1,7 @@
 <script setup>
 import { inject, reactive, watch } from "vue";
 
+import { getMarkerUrl } from "~/client";
 import BaseSelect from "~/components/BaseSelect.vue";
 
 const emit = defineEmits(["change"]);
@@ -19,10 +20,7 @@ const state = reactive({
   icons: Object.values(icons.value),
 });
 
-const imageFullPath = (image) => {
-  // eslint-disable-next-line no-undef
-  return `${BASE}resources/markers/${image}`;
-};
+const imageFullPath = (image) => getMarkerUrl(image);
 
 watch(
   () => state.current,

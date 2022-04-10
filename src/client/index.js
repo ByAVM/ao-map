@@ -1,8 +1,7 @@
 import axios from "axios";
 
 const axi = axios.create({
-  // eslint-disable-next-line no-undef
-  baseURL: BASE
+  baseURL: import.meta.env.VITE_BASE,
 });
 
 axi.interceptors.request.use(
@@ -29,3 +28,8 @@ export const client = {
   // Details
   getDetails: (slug) => axi.get(`resources/data/details/${slug}.json`),
 };
+
+export const getMapUrl = (mapImage) => `${import.meta.env.VITE_BASE}resources/maps/${mapImage}`;
+
+export const getMarkerUrl = (markerImage) =>
+  `${import.meta.env.VITE_BASE}resources/markers/${markerImage}`;

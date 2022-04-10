@@ -2,6 +2,8 @@ import L from "leaflet";
 import * as DomEvent from "leaflet/src/dom/DomEvent";
 import { Path } from "leaflet/src/layer/vector/Path";
 
+import { getMarkerUrl } from "~/client";
+
 const AppIcon = L.Icon.extend({
   options: {
     iconSrc: "MarkGroupMate.png",
@@ -13,8 +15,8 @@ const AppIcon = L.Icon.extend({
   createShadow: function () {},
   _getIconUrl: function (name) {
     const image = this.options[name + "Src"];
-    // eslint-disable-next-line no-undef
-    return `${BASE}resources/markers/${image}`;
+
+    return getMarkerUrl(image);
   },
 });
 
