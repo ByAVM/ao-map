@@ -6,12 +6,13 @@ yarn-debug.log*
 yarn-error.log*
 pnpm-debug.log*
 lerna-debug.log*
-raw
 
 node_modules
 dist
 dist-ssr
 *.local
+raw
+public/resources/maps_nooptimized
 
 # Editor directories and files
 .vscode/*
