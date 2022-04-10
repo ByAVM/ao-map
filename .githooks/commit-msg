@@ -1,0 +1,18 @@
+#!/usr/bin/env bash
+LC_ALL=C
+
+commit_message="$1"
+
+valid_commit_message_regex="^(feature|fix|docs|style|refactor|test|chore): [a-z0-9 ]+$"
+
+message="There is something wrong with your commit message. Message must adhere to this contract: $valid_branch_regex. You should change your commit message and try again."
+
+echo "Verifying commit message"
+
+if [[ ! $commit_message =~ $valid_commit_message_regex ]]
+then
+    echo "$message"
+    exit 1
+fi
+
+exit 0
