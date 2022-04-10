@@ -135,7 +135,7 @@ useClickOutside(selectRef, handleCollapse);
   position: relative;
 }
 .app-select__current {
-  padding: 4px 8px;
+  padding: var(--input-padding);
   border-radius: var(--border-radius);
   border: solid 1px var(--border-color);
   cursor: pointer;
@@ -145,7 +145,7 @@ useClickOutside(selectRef, handleCollapse);
   position: absolute;
   background-color: var(--bg-main);
   box-shadow: var(--shadow);
-  width: 230px;
+  min-width: 80%;
   z-index: 5;
 }
 .app-select__dropdown__expanded {
@@ -154,7 +154,7 @@ useClickOutside(selectRef, handleCollapse);
 .app-select__dropdown-scroll {
   position: relative;
   height: auto;
-  max-height: 150px;
+  max-height: 250px;
   overflow-y: auto;
   z-index: 1;
   background-color: var(--bg-main);
@@ -164,17 +164,18 @@ useClickOutside(selectRef, handleCollapse);
 }
 .app-select__dropdown-group-title {
   padding: 4px 8px;
-  margin-bottom: 4px;
+  margin-top: 8px;
   font-weight: bold;
 }
 .app-select__filter {
   position: relative;
-  padding: 8px 4px 8px 4px;
+  padding: 8px 4px;
   z-index: 2;
 }
 .app-select__filter-input {
   display: block;
   width: 100%;
+  padding: var(--input-padding);
 }
 .app-select__dropdown-item {
   cursor: pointer;

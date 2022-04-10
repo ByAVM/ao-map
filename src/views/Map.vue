@@ -8,6 +8,8 @@ import ConfiguredMap from "~/modules/ConfiguredMap.vue";
 import LocationSelect from "~/modules/LocationSelect.vue";
 import { validateMarker } from "~/utils/markers";
 
+const APP_VERSION = import.meta.env.VITE_APP_VERSION;
+
 const props = defineProps({
   location: {
     type: String,
@@ -200,6 +202,10 @@ const handleButtonScroll = () => {
           </button>
         </div>
       </div>
+
+      <div class="info">
+        <span>Версия: {{ APP_VERSION }}</span>
+      </div>
     </div>
   </main>
 </template>
@@ -218,7 +224,7 @@ const handleButtonScroll = () => {
   position: fixed;
   align-items: center;
   justify-content: center;
-  bottom: 5px;
+  bottom: 8px;
   left: calc(50% - 32px);
   width: 64px;
   height: 64px;
@@ -233,12 +239,11 @@ const handleButtonScroll = () => {
 }
 .grid {
   display: grid;
-  grid-template-columns: 800px 250px;
+  grid-template-columns: minmax(800px, 3fr) minmax(250px, 1fr);
   grid-template-rows: 100vh;
   grid-template-areas: "main sidebar";
   margin-left: auto;
   margin-right: auto;
-  max-width: 1256px;
   position: relative;
 }
 
@@ -249,6 +254,8 @@ const handleButtonScroll = () => {
 .sidebar {
   grid-area: sidebar;
   padding: 8px 16px;
+  display: flex;
+  flex-direction: column;
 }
 
 .interactive-map {
@@ -256,9 +263,16 @@ const handleButtonScroll = () => {
   height: 100%;
   width: 100%;
 }
+
+.info {
+  margin-top: auto;
+  text-align: left;
+  color: var(--secondary);
+  font-size: var(--font-sm);
+}
 @media screen and (max-width: 1265px) {
   .grid {
-    grid-template-columns: 500px 250px;
+    grid-template-columns: 2fr minmax(250px, 1fr);
   }
 }
 @media screen and (max-width: 765px) {

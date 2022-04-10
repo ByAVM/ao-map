@@ -57,7 +57,7 @@ const handleDecline = () => {
     </div>
 
     <button class="app-button app-button__primary" type="submit">Добавить</button>
-    <button class="app-button app-button__secodary" type="button" @click="handleDecline">
+    <button class="app-button app-button__secondary" type="button" @click="handleDecline">
       Отмена
     </button>
   </form>
