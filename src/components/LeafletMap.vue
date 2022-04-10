@@ -79,6 +79,9 @@ onMounted(() => {
       zoom: 1,
       collapsed: false,
       position: "topright",
+      textErr: "Маркер не найден", //error message
+      textCancel: "Отмена", //title in cancel button
+      textPlaceholder: "Поиск...",
     })
   );
 });
