@@ -2,6 +2,7 @@
 import L from "leaflet";
 import { computed, inject, reactive, ref, watch } from "vue";
 
+import { getMapUrl } from "~/client";
 import LeafletMap from "~/components/LeafletMap.vue";
 import { appIcon, appMarker } from "~/utils/leaflet";
 import { createPopupForMarker } from "~/utils/markers";
@@ -33,8 +34,7 @@ const props = defineProps({
   },
 });
 
-// eslint-disable-next-line no-undef
-const imageFullPath = computed(() => `${BASE}resources/maps/${props.mapImage}`);
+const imageFullPath = computed(() => getMapUrl(props.mapImage));
 const mapBounds = computed(() => [
   [0, 0],
   [props.mapSize.height, props.mapSize.width],
