@@ -4,86 +4,6 @@
     "image": "MarkGroupMate.png",
     "type": "default"
   },
-  "solo_quest": {
-    "title": "Одиночный квест",
-    "image": "QuestHighSoloCommon.png",
-    "type": "solo_quest"
-  },
-  "solo_secrets_quest": {
-    "title": "Тайны мира (одиночный)",
-    "image": "QuestHighSoloSecret.png",
-    "type": "solo_secrets_quest"
-  },
-  "trainer": {
-    "title": "Наставник",
-    "image": "MarkTrainer.png",
-    "type": "trainer"
-  },
-  "trader": {
-    "title": "Торговец",
-    "image": "MarkTrader.png",
-    "type": "trader"
-  },
-  "myrrh": {
-    "title": "Торговец миррой",
-    "image": "MarkMyrrh.png",
-    "type": "myrrh"
-  },
-  "consumable": {
-    "title": "Торговец расходниками",
-    "image": "MarkConsumable.png",
-    "type": "consumable"
-  },
-  "crafting": {
-    "title": "Ремесленник",
-    "image": "MarkCrafting.png",
-    "type": "crafting"
-  },
-  "guild": {
-    "title": "Регистратор гильдий",
-    "image": "MarkGuild.png",
-    "type": "guild"
-  },
-  "quest_secret": {
-    "title": "Тайны мира",
-    "image": "MarkHasQuestSecret.png",
-    "type": "quest_secret"
-  },
-  "teleporter": {
-    "title": "Мастер телепортации",
-    "image": "MarkTeleporter.png",
-    "type": "teleporter"
-  },
-  "mail": {
-    "title": "Почтальон",
-    "image": "MarkMail.png",
-    "type": "mail"
-  },
-  "badge_seller": {
-    "title": "Торговец редкостями",
-    "image": "MarkBadgeSeller.png",
-    "type": "badge_seller"
-  },
-  "change_room": {
-    "title": "Комната изменений",
-    "image": "MarkChangeRoom.png",
-    "type": "change_room"
-  },
-  "remort": {
-    "title": "Специалист по необъяснимому",
-    "image": "MarkRemort.png",
-    "type": "remort"
-  },
-  "reputation": {
-    "title": "Интендант",
-    "image": "MarkReputation.png",
-    "type": "reputation"
-  },
-  "rune_seller": {
-    "title": "Торговец рунами",
-    "image": "MarkRuneSeller.png",
-    "type": "rune_seller"
-  },
   "auction": {
     "title": "Аукцион",
     "image": "MarkAuction.png",
@@ -94,14 +14,129 @@
     "image": "MarkSafe.png",
     "type": "safe"
   },
-  "spouse": {
-    "title": "Регистратор брака",
-    "image": "MarkSpouse.png",
-    "type": "spouse"
+  "weapon": {
+    "title": "Бой",
+    "image": "MarkWeapon.png",
+    "type": "weapon"
+  },
+  "reputation": {
+    "title": "Интендант",
+    "image": "MarkReputation.png",
+    "type": "reputation"
+  },
+  "change_room": {
+    "title": "Комната изменений",
+    "image": "MarkChangeRoom.png",
+    "type": "change_room"
+  },
+  "solo_quest": {
+    "title": "Квест (одиночный)",
+    "image": "QuestHighSoloCommon.png",
+    "type": "solo_quest"
+  },
+  "party_quest": {
+    "title": "Квест (групповой)",
+    "image": "QuestHighPartyCommon.png",
+    "type": "party_quest"
+  },
+  "raid_quest": {
+    "title": "Квест (рейд)",
+    "image": "QuestHighRaidCommon.png",
+    "type": "raid_quest"
+  },
+  "repeatable_quest": {
+    "title": "Квест (одиночный) повторяемый",
+    "image": "QuestLowSoloRepeatable.png",
+    "type": "repeatable_quest"
   },
   "upgrader": {
     "title": "Мастер улучшений",
     "image": "MarkUpgrader.png",
     "type": "upgrader"
+  },
+  "myrrh": {
+    "title": "Мирра",
+    "image": "MarkMyrrh.png",
+    "type": "myrrh"
+  },
+  "trainer": {
+    "title": "Наставник",
+    "image": "MarkTrainer.png",
+    "type": "trainer"
+  },
+  "rewards_exchange": {
+    "title": "Негоциант",
+    "image": "MarkRewardsExchange.png",
+    "type": "rewards_exchange"
+  },
+  "mail": {
+    "title": "Почтальон",
+    "image": "MarkMail.png",
+    "type": "mail"
+  },
+  "guild": {
+    "title": "Регистратор гильдий",
+    "image": "MarkGuild.png",
+    "type": "guild"
+  },
+  "spouse": {
+    "title": "Регистратор ЗАГСа",
+    "image": "MarkSpouse.png",
+    "type": "spouse"
+  },
+  "crafting": {
+    "title": "Ремесленник",
+    "image": "MarkCrafting.png",
+    "type": "crafting"
+  },
+  "remort": {
+    "title": "Специалист по необъяснимому",
+    "image": "MarkRemort.png",
+    "type": "remort"
+  },
+  "solo_secrets_quest": {
+    "title": "Тайны мира (одиночный)",
+    "image": "QuestHighSoloSecret.png",
+    "type": "solo_secrets_quest"
+  },
+  "party_secrets_quest": {
+    "title": "Тайны мира (групповой)",
+    "image": "QuestHighPartySecret.png",
+    "type": "party_secrets_quest"
+  },
+  "raid_secrets_quest": {
+    "title": "Тайны мира (рейд)",
+    "image": "QuestHighRaidSecret.png",
+    "type": "raid_secrets_quest"
+  },
+  "teleporter": {
+    "title": "Телепорт",
+    "image": "MarkTeleporter.png",
+    "type": "teleporter"
+  },
+  "trader": {
+    "title": "Торговец",
+    "image": "MarkTrader.png",
+    "type": "trader"
+  },
+  "consumable": {
+    "title": "Торговец расходниками",
+    "image": "MarkConsumable.png",
+    "type": "consumable"
+  },
+  "badge_seller": {
+    "title": "Торговец редкостями",
+    "image": "MarkBadgeSeller.png",
+    "type": "badge_seller"
+  },
+  "rune_seller": {
+    "title": "Торговец рунами",
+    "image": "MarkRuneSeller.png",
+    "type": "rune_seller"
+  },
+  "quest_secret": {
+    "title": "Хранитель тайн",
+    "image": "MarkHasQuestSecret.png",
+    "type": "quest_secret"
   }
 }
