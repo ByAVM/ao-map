@@ -8,5 +8,958 @@
     "width": 1024,
     "height": 886
   },
-  "markers": []
+  "markers": [
+    [
+      {
+        "title": "Авдотья Лисицкая",
+        "slug": "avdotya_lisickaya",
+        "description": "Канийская интендантка",
+        "type": "reputation",
+        "position": {
+          "lat": 199.45813069197766,
+          "lng": 488.25723240931103
+        }
+      },
+      {
+        "title": "Ива Лукова",
+        "slug": "iva_lukova",
+        "description": "Торговля походным снаряжением",
+        "type": "consumable",
+        "position": {
+          "lat": 188.1471315796949,
+          "lng": 463.5084950677819
+        }
+      },
+      {
+        "title": "Данила Скворцов",
+        "slug": "danila_skvorcov",
+        "description": "Наставник инженеров",
+        "type": "trainer",
+        "position": {
+          "lat": 257.7804698646856,
+          "lng": 433.10290347676033
+        }
+      },
+      {
+        "title": "Дмитрий Мухортов",
+        "slug": "dmitrii_muhortov",
+        "description": "",
+        "type": "upgrader",
+        "position": {
+          "lat": 273.6865623663332,
+          "lng": 424.61762210252175
+        }
+      },
+      {
+        "title": "Почтальон",
+        "slug": "pochtalon",
+        "description": "",
+        "type": "mail",
+        "position": {
+          "lat": 282.16981170054527,
+          "lng": 446.53793231930473
+        }
+      },
+      {
+        "title": "Аукционер",
+        "slug": "aukcioner",
+        "description": "",
+        "type": "auction",
+        "position": {
+          "lat": 271.919218755039,
+          "lng": 472.700883223207
+        }
+      },
+      {
+        "title": "Аукционер",
+        "slug": "aukcioner",
+        "description": "",
+        "type": "auction",
+        "position": {
+          "lat": 271.21228131052135,
+          "lng": 482.2468247692254
+        }
+      },
+      {
+        "title": "Могута Любимов",
+        "slug": "moguta_lyubimov",
+        "description": "Ловелас",
+        "type": "trader",
+        "position": {
+          "lat": 348.03855599241064,
+          "lng": 486
+        }
+      },
+      {
+        "title": "Виктор Воронов",
+        "slug": "viktor_voronov",
+        "description": "Наставник храмовников",
+        "type": "trainer",
+        "position": {
+          "lat": 335.04166920918914,
+          "lng": 461.5
+        }
+      },
+      {
+        "title": "Марианна ди Ардер",
+        "slug": "marianna_di_arder",
+        "description": "Настоятельница церкви Света",
+        "type": "solo_secrets_quest",
+        "position": {
+          "lat": 354.03711912312826,
+          "lng": 452.5
+        }
+      },
+      {
+        "title": "Услав Радеев",
+        "slug": "uslav_radeev",
+        "description": "Наставник жрецов",
+        "type": "trainer",
+        "position": {
+          "lat": 362.5176016487092,
+          "lng": 456.25
+        }
+      },
+      {
+        "title": "Мила Мещерская",
+        "slug": "mila_mesherskaya",
+        "description": "Служительница Света",
+        "type": "reputation",
+        "position": {
+          "lat": 363.5173621704955,
+          "lng": 447.25
+        }
+      },
+      {
+        "title": "Сивояр Форокский",
+        "slug": "sivoyar_forokskii",
+        "description": "Наставник алхимии",
+        "type": "crafting",
+        "position": {
+          "lat": 238.0111985768499,
+          "lng": 514.06662992262
+        }
+      },
+      {
+        "title": "Почтальон",
+        "slug": "pochtalon",
+        "description": "",
+        "type": "mail",
+        "position": {
+          "lat": 405.0502904248834,
+          "lng": 602
+        }
+      },
+      {
+        "title": "Елизавета Барышева",
+        "slug": "elizaveta_barisheva",
+        "description": "Предсказательница",
+        "type": "default",
+        "position": {
+          "lat": 416.04765616453244,
+          "lng": 602.5
+        }
+      },
+      {
+        "title": "Илона ди Ардер",
+        "slug": "ilona_di_arder",
+        "description": "Глава гильдии мастеров Новограда",
+        "type": "reputation",
+        "position": {
+          "lat": 253.08669111337053,
+          "lng": 592
+        }
+      },
+      {
+        "title": "Сергий Орловский",
+        "slug": "sergii_orlovskii",
+        "description": "Интендант Защитников Лиги",
+        "type": "reputation",
+        "position": {
+          "lat": 259.5851345049813,
+          "lng": 569.5
+        }
+      },
+      {
+        "title": "Омер ди Делис",
+        "slug": "omer_di_delis",
+        "description": "",
+        "type": "teleporter",
+        "position": {
+          "lat": 272.5820212882028,
+          "lng": 590
+        }
+      },
+      {
+        "title": "Любомудр Сомов",
+        "slug": "lyubomudr_somov",
+        "description": "",
+        "type": "quest_secret",
+        "position": {
+          "lat": 277.04017247035335,
+          "lng": 589.25
+        }
+      },
+      {
+        "title": "Максимус Корнель",
+        "slug": "maksimus_kornel",
+        "description": "Распорядитель боёв",
+        "type": "default",
+        "position": {
+          "lat": 281.289154687945,
+          "lng": 596.5
+        }
+      },
+      {
+        "title": "Алиса",
+        "slug": "alisa",
+        "description": "",
+        "type": "default",
+        "position": {
+          "lat": 289.5371789926817,
+          "lng": 596.25
+        }
+      },
+      {
+        "title": "Избор Иверский",
+        "slug": "izbor_iverskii",
+        "description": "Глава Защитников Лиги",
+        "type": "solo_secrets_quest",
+        "position": {
+          "lat": 274.2908310354411,
+          "lng": 570
+        }
+      },
+      {
+        "title": "Айденус",
+        "slug": "aidenus",
+        "description": "Великий Маг Лиги",
+        "type": "solo_secrets_quest",
+        "position": {
+          "lat": 272.7911902527617,
+          "lng": 576.5
+        }
+      },
+      {
+        "title": "Волот Кононов",
+        "slug": "volot_kononov",
+        "description": "Наставник кузнечного дела",
+        "type": "crafting",
+        "position": {
+          "lat": 370.20333593325387,
+          "lng": 695.7930726875627
+        }
+      },
+      {
+        "title": "Зорица Ковалёва",
+        "slug": "zorica_kovalyova",
+        "description": "Наставница оружейного дела",
+        "type": "crafting",
+        "position": {
+          "lat": 361.7200865990418,
+          "lng": 697.5608396405291
+        }
+      },
+      {
+        "title": "Персефона",
+        "slug": "persefona",
+        "description": "Награды Арены Героев",
+        "type": "trader",
+        "position": {
+          "lat": 317.8899650389461,
+          "lng": 650.1846853010304
+        }
+      },
+      {
+        "title": "Герасим Ривин",
+        "slug": "gerasim_rivin",
+        "description": "Интендант героических приключений",
+        "type": "trader",
+        "position": {
+          "lat": 346.52093154191186,
+          "lng": 697.5608396405291
+        }
+      },
+      {
+        "title": "Банкир",
+        "slug": "bankir",
+        "description": "",
+        "type": "safe",
+        "position": {
+          "lat": 337.684213485441,
+          "lng": 712.4100820454465
+        }
+      },
+      {
+        "title": "Банкир",
+        "slug": "bankir",
+        "description": "",
+        "type": "safe",
+        "position": {
+          "lat": 304.81162231536916,
+          "lng": 718.066936294939
+        }
+      },
+      {
+        "title": "Сергей Игнатов",
+        "slug": "sergei_ignatov",
+        "description": "Главный банкир Новограда",
+        "type": "default",
+        "position": {
+          "lat": 316.12262142765195,
+          "lng": 716.2991693419726
+        }
+      },
+      {
+        "title": "Семейка Бескорыстных",
+        "slug": "semeika_beskoristnih",
+        "description": "Представители олигархов",
+        "type": "default",
+        "position": {
+          "lat": 298.4491853147101,
+          "lng": 718.4204896855323
+        }
+      },
+      {
+        "title": "Рута Лемешева",
+        "slug": "ruta_lemesheva",
+        "description": "Продавец ремесленных улучшений и компонентов",
+        "type": "crafting",
+        "position": {
+          "lat": 277.9479994236977,
+          "lng": 717.7133829043457
+        }
+      },
+      {
+        "title": "Колетт ди Близар",
+        "slug": "kolett_di_blizar",
+        "description": "Зайтейница",
+        "type": "consumable",
+        "position": {
+          "lat": 227.58669111337053,
+          "lng": 729.5
+        }
+      },
+      {
+        "title": "Гордий Свободов",
+        "slug": "gordii_svobodov",
+        "description": "Исследователь Полигона",
+        "type": "reputation",
+        "position": {
+          "lat": 219.58860693908036,
+          "lng": 738
+        }
+      },
+      {
+        "title": "Ингвар Сребров",
+        "slug": "ingvar_srebrov",
+        "description": "Агент Олигархов",
+        "type": "reputation",
+        "position": {
+          "lat": 212.29514164328822,
+          "lng": 743.25
+        }
+      },
+      {
+        "title": "Эдема ди Грандер",
+        "slug": "edema_di_grander",
+        "description": "Симулякр Ваятеля",
+        "type": "reputation",
+        "position": {
+          "lat": 204.2837065585826,
+          "lng": 749
+        }
+      },
+      {
+        "title": "Рогнеда Свисткова",
+        "slug": "rogneda_svistkova",
+        "description": "Тренер по гоблиноболу",
+        "type": "default",
+        "position": {
+          "lat": 174.04095077454792,
+          "lng": 720.75
+        }
+      },
+      {
+        "title": "Славена Свисткова",
+        "slug": "slavena_svistkova",
+        "description": "Распорядитель чемпионата",
+        "type": "default",
+        "position": {
+          "lat": 175.54059155722734,
+          "lng": 715.5
+        }
+      },
+      {
+        "title": "Семейка Ветеранов",
+        "slug": "semeika_veteranov",
+        "description": "Стратеги противостояния",
+        "type": "default",
+        "position": {
+          "lat": 174.79077116588763,
+          "lng": 680
+        }
+      },
+      {
+        "title": "Бойко Соколов",
+        "slug": "boiko_sokolov",
+        "description": "Интендант Доминиона",
+        "type": "upgrader",
+        "position": {
+          "lat": 172.78915468794497,
+          "lng": 672.5
+        }
+      },
+      {
+        "title": "Семейка Торопыг",
+        "slug": "semeika_toropig",
+        "description": "Маркитанты солдат удачи",
+        "type": "weapon",
+        "position": {
+          "lat": 172.03849612285723,
+          "lng": 664.5
+        }
+      },
+      {
+        "title": "Гээл-Бран Хмурый",
+        "slug": "geel-bran_hmurii",
+        "description": "Опытный поединщик",
+        "type": "weapon",
+        "position": {
+          "lat": 168.7841256454566,
+          "lng": 659
+        }
+      },
+      {
+        "title": "Враноми Темнов",
+        "slug": "vranomi_temnov",
+        "description": "Наставник демонологов",
+        "type": "trainer",
+        "position": {
+          "lat": 206.2751452124417,
+          "lng": 642.25
+        }
+      },
+      {
+        "title": "Глашатай Новограда",
+        "slug": "glashatai_novograda",
+        "description": "",
+        "type": "solo_quest",
+        "position": {
+          "lat": 205.525324821102,
+          "lng": 708.75
+        }
+      },
+      {
+        "title": "Ратмир Глебов",
+        "slug": "ratmir_glebov",
+        "description": "",
+        "type": "default",
+        "position": {
+          "lat": 258.03819677509,
+          "lng": 654.5
+        }
+      },
+      {
+        "title": "Явор Лукашов",
+        "slug": "yavor_lukashov",
+        "description": "",
+        "type": "default",
+        "position": {
+          "lat": 232.54430346954018,
+          "lng": 654.5
+        }
+      },
+      {
+        "title": "Добробой Быков",
+        "slug": "dobroboi_bikov",
+        "description": "Наставник воинов",
+        "type": "trainer",
+        "position": {
+          "lat": 164.56058798807385,
+          "lng": 603
+        }
+      },
+      {
+        "title": "Тур Молчанов",
+        "slug": "tur_molchanov",
+        "description": "Наставник язычников",
+        "type": "trainer",
+        "position": {
+          "lat": 146.56489859592102,
+          "lng": 583
+        }
+      },
+      {
+        "title": "Темпоральный разрез",
+        "slug": "temporalnii_razrez",
+        "description": "Портал в лагерь \"Дюна\"",
+        "type": "teleporter",
+        "position": {
+          "lat": 158.0621445964631,
+          "lng": 529.5
+        }
+      },
+      {
+        "title": "Алиса",
+        "slug": "alisa",
+        "description": "Путешественница во времени",
+        "type": "default",
+        "position": {
+          "lat": 157.03071308091094,
+          "lng": 534.25
+        }
+      },
+      {
+        "title": "Дарр",
+        "slug": "darr",
+        "description": "Торговец Эмбриумом",
+        "type": "default",
+        "position": {
+          "lat": 280.7804137331438,
+          "lng": 473
+        }
+      },
+      {
+        "title": "Талер ди Плюи",
+        "slug": "taler_di_plyui",
+        "description": "",
+        "type": "rewards_exchange",
+        "position": {
+          "lat": 280.0305933418041,
+          "lng": 481.5
+        }
+      },
+      {
+        "title": "Семейка Шельм",
+        "slug": "semeika_shelm",
+        "description": "Купцы",
+        "type": "default",
+        "position": {
+          "lat": 465.51915825709847,
+          "lng": 432
+        }
+      },
+      {
+        "title": "Семейка Проницательных",
+        "slug": "semeika_pronicatelnih",
+        "description": "Наставники мистиков",
+        "type": "trainer",
+        "position": {
+          "lat": 486.014248953717,
+          "lng": 405
+        }
+      },
+      {
+        "title": "Семейка Сыромятных",
+        "slug": "semeika_siromyatnih",
+        "description": "Наставники кожевенного дела",
+        "type": "crafting",
+        "position": {
+          "lat": 505.50957912854926,
+          "lng": 409.5
+        }
+      },
+      {
+        "title": "Семейка Неразлучных",
+        "slug": "semeika_nerazluchnih",
+        "description": "",
+        "type": "solo_quest",
+        "position": {
+          "lat": 560.9962880876872,
+          "lng": 436
+        }
+      },
+      {
+        "title": "Семейка Ловкачей",
+        "slug": "semeika_lovkachei",
+        "description": "Наставники разведчиков",
+        "type": "trainer",
+        "position": {
+          "lat": 567.8298597480991,
+          "lng": 414.36457377531684
+        }
+      },
+      {
+        "title": "Семейка Бельчатников",
+        "slug": "semeika_belchatnikov",
+        "description": "Купцы",
+        "type": "default",
+        "position": {
+          "lat": 554.0445795800046,
+          "lng": 410.4754864787908
+        }
+      },
+      {
+        "title": "Семейка Хитрованов",
+        "slug": "semeika_hitrovanov",
+        "description": "Купцы",
+        "type": "default",
+        "position": {
+          "lat": 587.6241081945939,
+          "lng": 436.63843738269304
+        }
+      },
+      {
+        "title": "Семейка Хлопотливых",
+        "slug": "semeika_hlopotlivih",
+        "description": "Гиберлингские интенданты",
+        "type": "reputation",
+        "position": {
+          "lat": 573.8388280264993,
+          "lng": 393.85847712090697
+        }
+      },
+      {
+        "title": "Семейка Сивых",
+        "slug": "semeika_sivih",
+        "description": "Послы гиберлингов",
+        "type": "solo_secrets_quest",
+        "position": {
+          "lat": 581.2616711939348,
+          "lng": 396.33335085505985
+        }
+      },
+      {
+        "title": "Милонега Смехова",
+        "slug": "milonega_smehova",
+        "description": "Затейница",
+        "type": "consumable",
+        "position": {
+          "lat": 504.9124271860263,
+          "lng": 464.56915523956167
+        }
+      },
+      {
+        "title": "Семейка Кашеваров",
+        "slug": "semeika_kashevarov",
+        "description": "Торговля походным снаряжением",
+        "type": "consumable",
+        "position": {
+          "lat": 531.422581355439,
+          "lng": 460.3265145524424
+        }
+      },
+      {
+        "title": "Глашатай Новограда",
+        "slug": "glashatai_novograda",
+        "description": "",
+        "type": "solo_quest",
+        "position": {
+          "lat": 542.4105076775261,
+          "lng": 528.9158723275375
+        }
+      },
+      {
+        "title": "Шарлотта ди Близар",
+        "slug": "sharlotta_di_blizar",
+        "description": "Купец",
+        "type": "default",
+        "position": {
+          "lat": 606.7418151286342,
+          "lng": 526.7945519839778
+        }
+      },
+      {
+        "title": "Фома Упрямов",
+        "slug": "foma_upryamov",
+        "description": "Горожанин",
+        "type": "trader",
+        "position": {
+          "lat": 676.351192274979,
+          "lng": 526.0874452027913
+        }
+      },
+      {
+        "title": "Ольга Сидорова",
+        "slug": "olga_sidorova",
+        "description": "Купец",
+        "type": "default",
+        "position": {
+          "lat": 580.9146372650933,
+          "lng": 655.1344327693363
+        }
+      },
+      {
+        "title": "Глашатай Новограда",
+        "slug": "glashatai_novograda",
+        "description": "",
+        "type": "solo_quest",
+        "position": {
+          "lat": 547.6885773727628,
+          "lng": 637.4567632396726
+        }
+      },
+      {
+        "title": "Почтальон",
+        "slug": "pochtalon",
+        "description": "",
+        "type": "mail",
+        "position": {
+          "lat": 539.2053280385506,
+          "lng": 625.082394568908
+        }
+      },
+      {
+        "title": "Жуга Исаев",
+        "slug": "guga_isaev",
+        "description": "Голова Сыскного приказа",
+        "type": "solo_quest",
+        "position": {
+          "lat": 568.543231986034,
+          "lng": 624.7288411783147
+        }
+      },
+      {
+        "title": "Шур Солодов",
+        "slug": "shur_solodov",
+        "description": "Торговля походным снаряжением",
+        "type": "consumable",
+        "position": {
+          "lat": 550.8697958730922,
+          "lng": 589.0199487283941
+        }
+      },
+      {
+        "title": "Евдокия Бубенцова",
+        "slug": "evdokiya_bubencova",
+        "description": "Затейница",
+        "type": "consumable",
+        "position": {
+          "lat": 592.9325738218937,
+          "lng": 605.6369580862779
+        }
+      },
+      {
+        "title": "Антон Швецов",
+        "slug": "anton_shvecov",
+        "description": "Торговля походным снаряжением",
+        "type": "consumable",
+        "position": {
+          "lat": 604.9505103786942,
+          "lng": 587.605735166021
+        }
+      },
+      {
+        "title": "Глашатай Новограда",
+        "slug": "glashatai_novograda",
+        "description": "",
+        "type": "solo_quest",
+        "position": {
+          "lat": 626.1586337142243,
+          "lng": 586.8986283848344
+        }
+      },
+      {
+        "title": "Олег Шпилёв",
+        "slug": "oleg_shpilyov",
+        "description": "Регистратор гильдий",
+        "type": "guild",
+        "position": {
+          "lat": 566.5302939940369,
+          "lng": 543
+        }
+      },
+      {
+        "title": "Максим Предтеченский",
+        "slug": "maksim_predtechenskii",
+        "description": "Интендант Войска Лиги",
+        "type": "reputation",
+        "position": {
+          "lat": 577.5276597336859,
+          "lng": 536.5
+        }
+      },
+      {
+        "title": "Владимир Макарычев",
+        "slug": "vladimir_makarichev",
+        "description": "Интендант Войска Лиги",
+        "type": "reputation",
+        "position": {
+          "lat": 577.5276597336859,
+          "lng": 546
+        }
+      },
+      {
+        "title": "Улита Семёнова",
+        "slug": "ulita_semyonova",
+        "description": "Купец",
+        "type": "default",
+        "position": {
+          "lat": 618.7279163916861,
+          "lng": 560.3821240903388
+        }
+      },
+      {
+        "title": "Злата Мешкова",
+        "slug": "zlata_meshkova",
+        "description": "Интендантка Городского приказа",
+        "type": "reputation",
+        "position": {
+          "lat": 591.5113153455987,
+          "lng": 542
+        }
+      },
+      {
+        "title": "Лазарь Поляков",
+        "slug": "lazar_polyakov",
+        "description": "Глава Городского приказа",
+        "type": "solo_quest",
+        "position": {
+          "lat": 604.2582619983737,
+          "lng": 541.75
+        }
+      },
+      {
+        "title": "Спех Оханов",
+        "slug": "speh_ohanov",
+        "description": "Чиновник Городского приказа",
+        "type": "solo_quest",
+        "position": {
+          "lat": 618.2549093033815,
+          "lng": 541.25
+        }
+      },
+      {
+        "title": "Ратай Сажинов",
+        "slug": "ratai_saginov",
+        "description": "Чиновник Городского приказа",
+        "type": "default",
+        "position": {
+          "lat": 623.2537119123128,
+          "lng": 548
+        }
+      },
+      {
+        "title": "Шарль ди Вевр",
+        "slug": "sharl_di_vevr",
+        "description": "Наставник бардов",
+        "type": "trainer",
+        "position": {
+          "lat": 610.5019158257098,
+          "lng": 734.5
+        }
+      },
+      {
+        "title": "Феликс ди Грандер",
+        "slug": "feliks_di_grander",
+        "description": "Наставник волшебников",
+        "type": "trainer",
+        "position": {
+          "lat": 579.0094593894423,
+          "lng": 730
+        }
+      },
+      {
+        "title": "Жорж ди Ардер",
+        "slug": "gorg_di_arder",
+        "description": "Мастер перемен",
+        "type": "change_room",
+        "position": {
+          "lat": 590.7918644297479,
+          "lng": 766.1501974156242
+        }
+      },
+      {
+        "title": "Анастасия Пламенева",
+        "slug": "anastasiya_plameneva",
+        "description": "Творец душ",
+        "type": "soul_talents",
+        "position": {
+          "lat": 583.5041309991868,
+          "lng": 767.5
+        }
+      },
+      {
+        "title": "Пьер ди Ардер",
+        "slug": "per_di_arder",
+        "description": "Глава эльфийской миссии",
+        "type": "solo_secrets_quest",
+        "position": {
+          "lat": 562.5091600416752,
+          "lng": 766
+        }
+      },
+      {
+        "title": "Корвин ди Дазирэ",
+        "slug": "korvin_di_dazire",
+        "description": "Эльфийский интендант",
+        "type": "reputation",
+        "position": {
+          "lat": 557.2604173022972,
+          "lng": 766
+        }
+      },
+      {
+        "title": "Летус ди Дазирэ",
+        "slug": "letus_di_dazire",
+        "description": "",
+        "type": "default",
+        "position": {
+          "lat": 567.259227216628,
+          "lng": 766.0544201358493
+        }
+      },
+      {
+        "title": "Мара ди Дусер",
+        "slug": "mara_di_duser",
+        "description": "Специалист по необъяснимому",
+        "type": "remort",
+        "position": {
+          "lat": 557.5721733112277,
+          "lng": 729.434588264505
+        }
+      },
+      {
+        "title": "Эдит ди Дазирэ",
+        "slug": "edit_di_dazire",
+        "description": "Купец",
+        "type": "default",
+        "position": {
+          "lat": 523.9974905453664,
+          "lng": 725.8972972422667
+        }
+      },
+      {
+        "title": "Люля Скоморохова",
+        "slug": "lyulya_skomorohova",
+        "description": "Затейница",
+        "type": "consumable",
+        "position": {
+          "lat": 498.5514151859769,
+          "lng": 711.3944040510895
+        }
+      },
+      {
+        "title": "Рено ди Дазирэ",
+        "slug": "reno_di_dazire",
+        "description": "Наставник некромантов",
+        "type": "trainer",
+        "position": {
+          "lat": 496.43090890602775,
+          "lng": 778.2492043713937
+        }
+      },
+      {
+        "title": "Валентина ди Ардер",
+        "slug": "valentina_di_arder",
+        "description": "Наставница портяжного дела",
+        "type": "crafting",
+        "position": {
+          "lat": 519.0496425588185,
+          "lng": 787.0924319269894
+        }
+      },
+      {
+        "title": "Антуан ди Ардер",
+        "slug": "antuan_di_arder",
+        "description": "Кутюрье",
+        "type": "default",
+        "position": {
+          "lat": 520.4633134121179,
+          "lng": 805.4863452426288
+        }
+      }
+    ]
+  ]
 }

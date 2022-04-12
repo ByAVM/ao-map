@@ -24,11 +24,6 @@
     "image": "MarkReputation.png",
     "type": "reputation"
   },
-  "change_room": {
-    "title": "Комната изменений",
-    "image": "MarkChangeRoom.png",
-    "type": "change_room"
-  },
   "solo_quest": {
     "title": "Квест (одиночный)",
     "image": "QuestHighSoloCommon.png",
@@ -48,6 +43,11 @@
     "title": "Квест (одиночный) повторяемый",
     "image": "QuestLowSoloRepeatable.png",
     "type": "repeatable_quest"
+  },
+  "change_room": {
+    "title": "Мастер перемен",
+    "image": "MarkChangeRoom.png",
+    "type": "change_room"
   },
   "upgrader": {
     "title": "Мастер улучшений",
@@ -108,6 +108,11 @@
     "title": "Тайны мира (рейд)",
     "image": "QuestHighRaidSecret.png",
     "type": "raid_secrets_quest"
+  },
+  "soul_talents": {
+    "title": "Творец душ",
+    "image": "MarkSoulTalents.png",
+    "type": "soul_talents"
   },
   "teleporter": {
     "title": "Телепорт",
