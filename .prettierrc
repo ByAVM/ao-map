@@ -1,4 +1,6 @@
 {
+  "useTabs": false,
+  "tabWidth": 2,
   "endOfLine": "lf",
   "importOrder": ["^~/(.*)$", "^[./]"],
   "importOrderSeparation": true,
