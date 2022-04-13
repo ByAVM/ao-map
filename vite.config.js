@@ -10,6 +10,9 @@ export default defineConfig(({ mode }) => {
   return {
     base: mode === "production" ? process.env.VITE_BASE : "/",
     plugins: [vue(), VitePWA({}), svgLoader()],
+    define: {
+      'window.__APP__VERSION__': JSON.stringify(process.env.npm_package_version)
+    },
     resolve: {
       extensions: [".vue", ".js", ".css"],
       alias: {

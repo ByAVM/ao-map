@@ -10,4 +10,7 @@ module.exports = {
   rules: {
     "vue/require-default-prop": "off",
   },
+  globals: {
+    __APP__VERSION__: 'readonly'
+  }
 };
