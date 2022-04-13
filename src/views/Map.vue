@@ -8,7 +8,7 @@ import ConfiguredMap from "~/modules/ConfiguredMap.vue";
 import LocationSelect from "~/modules/LocationSelect.vue";
 import { validateMarker } from "~/utils/markers";
 
-const APP_VERSION = import.meta.env.VITE_APP_VERSION;
+const APP_VERSION = window.__APP__VERSION__;
 
 const props = defineProps({
   location: {

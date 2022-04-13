@@ -10,9 +10,15 @@
     "build": "vite build",
     "preview": "vite preview",
     "lint": "eslint --ext .js,.vue --ignore-path .gitignore --fix src",
-    "format": "prettier src  --write",
+    "format": "prettier src --write",
     "deploy": "node scripts/deploy-gh-pages.js",
     "postinstall": "husky install"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged",
+      "post-commit": "git update-index --again"
+    }
   },
   "dependencies": {
     "axios": "^0.26.1",
@@ -33,6 +39,7 @@
     "eslint-plugin-vue": "^8.6.0",
     "execa": "^6.1.0",
     "husky": "^7.0.4",
+    "lint-staged": "^12.3.7",
     "pinst": "^3.0.0",
     "prettier": "^2.6.2",
     "vite": "^2.8.0",
