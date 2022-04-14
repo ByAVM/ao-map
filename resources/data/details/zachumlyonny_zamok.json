@@ -1,0 +1,12 @@
+{
+  "groupName": "Подземелья",
+  "slug": "zachumlyonny_zamok",
+  "title": "Зачумлённый замок",
+  "levels": "",
+  "mapImage": "Inst_PlagueCastle.jpg",
+  "mapSize": {
+    "width": 1024,
+    "height": 886
+  },
+  "markers": []
+}

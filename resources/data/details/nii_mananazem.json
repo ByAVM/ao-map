@@ -1,0 +1,12 @@
+{
+  "groupName": "Архипелаги Империи",
+  "slug": "nii_mananazem",
+  "title": "НИИ МАНАНАЗЭМ",
+  "levels": "15-17",
+  "mapImage": "Pastel09_AE1.jpg",
+  "mapSize": {
+    "width": 1024,
+    "height": 886
+  },
+  "markers": []
+}

@@ -1,0 +1,12 @@
+{
+  "groupName": "Дальний астрал",
+  "slug": "khladberg",
+  "title": "Хладберг",
+  "levels": "35-36",
+  "mapImage": "Pastel15_AC1.jpg",
+  "mapSize": {
+    "width": 1024,
+    "height": 886
+  },
+  "markers": []
+}

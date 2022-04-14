@@ -1,0 +1,12 @@
+{
+  "groupName": "Империя",
+  "slug": "oko_mira",
+  "title": "Око Мира",
+  "levels": "",
+  "mapImage": "Pastel35_HT.jpg",
+  "mapSize": {
+    "width": 1024,
+    "height": 886
+  },
+  "markers": []
+}

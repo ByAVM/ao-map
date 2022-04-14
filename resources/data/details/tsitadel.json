@@ -1,0 +1,12 @@
+{
+  "groupName": "Обитель демонов",
+  "slug": "tsitadel",
+  "title": "Цитадель",
+  "levels": "75-80",
+  "mapImage": "ZC14_Citadel.jpg",
+  "mapSize": {
+    "width": 1024,
+    "height": 886
+  },
+  "markers": []
+}

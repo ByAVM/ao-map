@@ -1,0 +1,12 @@
+{
+  "groupName": "Империя",
+  "slug": "igshsky_voyenny_okrug",
+  "title": "Игшский военный округ",
+  "levels": "12-15",
+  "mapImage": "Pastel08_ZE2_South.jpg",
+  "mapSize": {
+    "width": 1024,
+    "height": 886
+  },
+  "markers": []
+}

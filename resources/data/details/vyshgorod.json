@@ -1,0 +1,12 @@
+{
+  "groupName": "Умойр",
+  "slug": "vyshgorod",
+  "title": "Вышгород",
+  "levels": "55-60",
+  "mapImage": "Umoir_UpperCity.jpg",
+  "mapSize": {
+    "width": 1024,
+    "height": 886
+  },
+  "markers": []
+}

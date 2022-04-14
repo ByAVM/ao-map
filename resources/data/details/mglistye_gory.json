@@ -1,0 +1,12 @@
+{
+  "groupName": "Феррис",
+  "slug": "mglistye_gory",
+  "title": "Мглистые горы",
+  "levels": "63-63",
+  "mapImage": "Ferris02.jpg",
+  "mapSize": {
+    "width": 1024,
+    "height": 886
+  },
+  "markers": []
+}

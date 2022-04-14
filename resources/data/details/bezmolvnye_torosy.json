@@ -1,0 +1,12 @@
+{
+  "groupName": "Феррис",
+  "slug": "bezmolvnye_torosy",
+  "title": "Безмолвные торосы",
+  "levels": "63-63",
+  "mapImage": "Ferris_Sandbox.jpg",
+  "mapSize": {
+    "width": 1024,
+    "height": 886
+  },
+  "markers": []
+}

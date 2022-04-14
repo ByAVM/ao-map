@@ -1,0 +1,12 @@
+{
+  "groupName": "Феррис",
+  "slug": "gibelnye_ldy",
+  "title": "Гибельные льды",
+  "levels": "60-63",
+  "mapImage": "Ferris01.jpg",
+  "mapSize": {
+    "width": 1024,
+    "height": 886
+  },
+  "markers": []
+}

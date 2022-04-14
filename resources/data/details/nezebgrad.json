@@ -1,0 +1,12 @@
+{
+  "groupName": "Империя",
+  "slug": "nezebgrad",
+  "title": "Незебград",
+  "levels": "5-14",
+  "mapImage": "Pastel07_ZE1.jpg",
+  "mapSize": {
+    "width": 1024,
+    "height": 886
+  },
+  "markers": []
+}

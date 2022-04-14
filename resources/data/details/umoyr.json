@@ -1,0 +1,12 @@
+{
+  "groupName": "Умойр",
+  "slug": "umoyr",
+  "title": "Умойр",
+  "levels": "55-60",
+  "mapImage": "Umoir.jpg",
+  "mapSize": {
+    "width": 1024,
+    "height": 886
+  },
+  "markers": []
+}

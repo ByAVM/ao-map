@@ -1,0 +1,12 @@
+{
+  "groupName": "Суслангер",
+  "slug": "staryy_gorod",
+  "title": "Старый город",
+  "levels": "90-95",
+  "mapImage": "Suslanger_City.jpg",
+  "mapSize": {
+    "width": 1024,
+    "height": 886
+  },
+  "markers": []
+}

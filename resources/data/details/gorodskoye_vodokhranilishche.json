@@ -1,0 +1,12 @@
+{
+  "groupName": "Империя",
+  "slug": "gorodskoye_vodokhranilishche",
+  "title": "Городское водохранилище",
+  "levels": "6-7",
+  "mapImage": "Pastel10_ZE3_BD.jpg",
+  "mapSize": {
+    "width": 1024,
+    "height": 886
+  },
+  "markers": []
+}

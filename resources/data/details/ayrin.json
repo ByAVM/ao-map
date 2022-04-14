@@ -1,0 +1,12 @@
+{
+  "groupName": "Айрин",
+  "slug": "ayrin",
+  "title": "Айрин",
+  "levels": "90-90",
+  "mapImage": "Zona_s_Galeonom.jpg",
+  "mapSize": {
+    "width": 1024,
+    "height": 886
+  },
+  "markers": []
+}

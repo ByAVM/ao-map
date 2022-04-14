@@ -1,0 +1,12 @@
+{
+  "groupName": "Святая Земля",
+  "slug": "eldzhun",
+  "title": "Эльджун",
+  "levels": "27-31",
+  "mapImage": "Pastel13_ZC2.jpg",
+  "mapSize": {
+    "width": 1024,
+    "height": 886
+  },
+  "markers": []
+}

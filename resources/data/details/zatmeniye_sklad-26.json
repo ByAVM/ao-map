@@ -1,0 +1,12 @@
+{
+  "groupName": "Аммра",
+  "slug": "zatmeniye_sklad-26",
+  "title": "\"Затмение\" - склад №26",
+  "levels": "73-73",
+  "mapImage": "AedIsle_Olimpiada_BattleshipEclipse.jpg",
+  "mapSize": {
+    "width": 1024,
+    "height": 886
+  },
+  "markers": []
+}

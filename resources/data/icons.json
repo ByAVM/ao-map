@@ -1,0 +1,177 @@
+{
+  "default": {
+    "title": "Метка",
+    "image": "MarkGroupMate.png",
+    "type": "default"
+  },
+  "auction": {
+    "title": "Аукцион",
+    "image": "MarkAuction.png",
+    "type": "auction"
+  },
+  "safe": {
+    "title": "Банкир",
+    "image": "MarkSafe.png",
+    "type": "safe"
+  },
+  "weapon": {
+    "title": "Бои",
+    "image": "MarkWeapon.png",
+    "type": "weapon"
+  },
+  "reputation": {
+    "title": "Интендант",
+    "image": "MarkReputation.png",
+    "type": "reputation"
+  },
+  "solo_quest": {
+    "title": "Квест (одиночный)",
+    "image": "QuestHighSoloCommon.png",
+    "type": "solo_quest"
+  },
+  "party_quest": {
+    "title": "Квест (групповой)",
+    "image": "QuestHighPartyCommon.png",
+    "type": "party_quest"
+  },
+  "raid_quest": {
+    "title": "Квест (рейд)",
+    "image": "QuestHighRaidCommon.png",
+    "type": "raid_quest"
+  },
+  "repeatable_quest": {
+    "title": "Квест (одиночный) повторяемый",
+    "image": "QuestLowSoloRepeatable.png",
+    "type": "repeatable_quest"
+  },
+  "change_room": {
+    "title": "Мастер перемен",
+    "image": "MarkChangeRoom.png",
+    "type": "change_room"
+  },
+  "upgrader": {
+    "title": "Мастер улучшений",
+    "image": "MarkUpgrader.png",
+    "type": "upgrader"
+  },
+  "power": {
+    "title": "Место силы",
+    "image": "PlaceOfPower.png",
+    "type": "power"
+  },
+  "power_red": {
+    "title": "Место силы(красный)",
+    "image": "PlaceOfPowerEmpire.png",
+    "type": "power_red"
+  },
+  "power_blue": {
+    "title": "Место силы(синий)",
+    "image": "PlaceOfPowerLeague.png",
+    "type": "power_blue"
+  },
+  "myrrh": {
+    "title": "Мирра",
+    "image": "MarkMyrrh.png",
+    "type": "myrrh"
+  },
+  "trainer": {
+    "title": "Наставник",
+    "image": "MarkTrainer.png",
+    "type": "trainer"
+  },
+  "rewards_exchange": {
+    "title": "Негоциант",
+    "image": "MarkRewardsExchange.png",
+    "type": "rewards_exchange"
+  },
+  "unknown": {
+    "title": "Неизвестный",
+    "image": "MarkUnknown.png",
+    "type": "unknown"
+  },
+  "mail": {
+    "title": "Почтальон",
+    "image": "MarkMail.png",
+    "type": "mail"
+  },
+  "guild": {
+    "title": "Регистратор гильдий",
+    "image": "MarkGuild.png",
+    "type": "guild"
+  },
+  "spouse": {
+    "title": "Регистратор ЗАГСа",
+    "image": "MarkSpouse.png",
+    "type": "spouse"
+  },
+  "crafting": {
+    "title": "Ремесленник",
+    "image": "MarkCrafting.png",
+    "type": "crafting"
+  },
+  "ruin_blue": {
+    "title": "Руины портала",
+    "image": "MarkRuinBlue.png",
+    "type": "ruin_blue"
+  },
+  "ruin_yellow": {
+    "title": "Руины портала(желтый)",
+    "image": "MarkRuinYellow.png",
+    "type": "ruin_yellow"
+  },
+  "remort": {
+    "title": "Специалист по необъяснимому",
+    "image": "MarkRemort.png",
+    "type": "remort"
+  },
+  "solo_secrets_quest": {
+    "title": "Тайны мира (одиночный)",
+    "image": "QuestHighSoloSecret.png",
+    "type": "solo_secrets_quest"
+  },
+  "party_secrets_quest": {
+    "title": "Тайны мира (групповой)",
+    "image": "QuestHighPartySecret.png",
+    "type": "party_secrets_quest"
+  },
+  "raid_secrets_quest": {
+    "title": "Тайны мира (рейд)",
+    "image": "QuestHighRaidSecret.png",
+    "type": "raid_secrets_quest"
+  },
+  "soul_talents": {
+    "title": "Творец душ",
+    "image": "MarkSoulTalents.png",
+    "type": "soul_talents"
+  },
+  "teleporter": {
+    "title": "Телепорт",
+    "image": "MarkTeleporter.png",
+    "type": "teleporter"
+  },
+  "trader": {
+    "title": "Торговец",
+    "image": "MarkTrader.png",
+    "type": "trader"
+  },
+  "consumable": {
+    "title": "Торговец расходниками",
+    "image": "MarkConsumable.png",
+    "type": "consumable"
+  },
+  "badge_seller": {
+    "title": "Торговец редкостями",
+    "image": "MarkBadgeSeller.png",
+    "type": "badge_seller"
+  },
+  "rune_seller": {
+    "title": "Торговец рунами",
+    "image": "MarkRuneSeller.png",
+    "type": "rune_seller"
+  },
+  "quest_secret": {
+    "title": "Хранитель тайн",
+    "image": "MarkHasQuestSecret.png",
+    "type": "quest_secret"
+  }
+}

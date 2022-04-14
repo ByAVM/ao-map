@@ -1,0 +1,12 @@
+{
+  "groupName": "Святая Земля",
+  "slug": "plato_koba",
+  "title": "Плато Коба",
+  "levels": "31-35",
+  "mapImage": "Pastel14_ZC3.jpg",
+  "mapSize": {
+    "width": 1024,
+    "height": 886
+  },
+  "markers": []
+}

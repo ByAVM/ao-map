@@ -1,0 +1,326 @@
+[
+  {
+    "groupName": "Лига",
+    "slug": "novograd",
+    "title": "Новоград",
+    "levels": ""
+  },
+  {
+    "groupName": "Лига",
+    "slug": "svetolesye",
+    "title": "Светолесье",
+    "levels": "7-12"
+  },
+  {
+    "groupName": "Лига",
+    "slug": "siveriya",
+    "title": "Сиверия",
+    "levels": "12-16"
+  },
+  {
+    "groupName": "Лига",
+    "slug": "temnovodye",
+    "title": "Темноводье",
+    "levels": "19-22"
+  },
+  {
+    "groupName": "Архипелаги Лиги",
+    "slug": "tainstvenny_ostrov",
+    "title": "Таинственный остров",
+    "levels": "4-7"
+  },
+  {
+    "groupName": "Архипелаги Лиги",
+    "slug": "novaya_zemlya",
+    "title": "Новая Земля",
+    "levels": "16-19"
+  },
+  {
+    "groupName": "Архипелаги Лиги",
+    "slug": "tenebra",
+    "title": "Тенебра",
+    "levels": "22-23"
+  },
+  {
+    "groupName": "Архипелаги Лиги",
+    "slug": "tsitadel_tmy",
+    "title": "Цитадель Тьмы",
+    "levels": "22-23"
+  },
+  {
+    "groupName": "Империя",
+    "slug": "nezebgrad",
+    "title": "Незебград",
+    "levels": "5-14"
+  },
+  {
+    "groupName": "Империя",
+    "slug": "gorodskoye_vodokhranilishche",
+    "title": "Городское водохранилище",
+    "levels": "6-7"
+  },
+  {
+    "groupName": "Империя",
+    "slug": "igshsky_voyenny_okrug",
+    "title": "Игшский военный округ",
+    "levels": "12-15"
+  },
+  {
+    "groupName": "Империя",
+    "slug": "severny_platsdarm",
+    "title": "Северный плацдарм",
+    "levels": "11-15"
+  },
+  {
+    "groupName": "Империя",
+    "slug": "myortvoye_more",
+    "title": "Мёртвое море",
+    "levels": "16-19"
+  },
+  {
+    "groupName": "Империя",
+    "slug": "oko_mira",
+    "title": "Око Мира",
+    "levels": ""
+  },
+  {
+    "groupName": "Архипелаги Империи",
+    "slug": "zdravitsa_nebesnaya",
+    "title": "Здравница \"Небесная\"",
+    "levels": "3-4"
+  },
+  {
+    "groupName": "Архипелаги Империи",
+    "slug": "nii_mananazem",
+    "title": "НИИ МАНАНАЗЭМ",
+    "levels": "15-17"
+  },
+  {
+    "groupName": "Архипелаги Империи",
+    "slug": "piramida_tepa",
+    "title": "Пирамида Тэпа",
+    "levels": "15-17"
+  },
+  {
+    "groupName": "Архипелаги Империи",
+    "slug": "dikiye_ostrova",
+    "title": "Дикие острова",
+    "levels": "20-21"
+  },
+  {
+    "groupName": "Архипелаги Империи",
+    "slug": "fabrika_gryoz",
+    "title": "Фабрика Грёз",
+    "levels": "22-23"
+  },
+  {
+    "groupName": "Святая Земля",
+    "slug": "assae_tepkh",
+    "title": "Ассаэ Тэпх",
+    "levels": "23-27"
+  },
+  {
+    "groupName": "Святая Земля",
+    "slug": "eldzhun",
+    "title": "Эльджун",
+    "levels": "27-31"
+  },
+  {
+    "groupName": "Святая Земля",
+    "slug": "plato_koba",
+    "title": "Плато Коба",
+    "levels": "31-35"
+  },
+  {
+    "groupName": "Дальний астрал",
+    "slug": "khladberg",
+    "title": "Хладберг",
+    "levels": "35-36"
+  },
+  {
+    "groupName": "Дальний астрал",
+    "slug": "avilon",
+    "title": "Авилон",
+    "levels": "36-37"
+  },
+  {
+    "groupName": "Дальний астрал",
+    "slug": "koltso_drakona",
+    "title": "Кольцо дракона",
+    "levels": "37-38"
+  },
+  {
+    "groupName": "Дальний астрал",
+    "slug": "oskolok_yazesa",
+    "title": "Осколок Язеса",
+    "levels": "38-40"
+  },
+  {
+    "groupName": "Дальний астрал",
+    "slug": "ruiny_al-riata",
+    "title": "Руины Ал-Риата",
+    "levels": ""
+  },
+  {
+    "groupName": "Умойр",
+    "slug": "umoyr",
+    "title": "Умойр",
+    "levels": "55-60"
+  },
+  {
+    "groupName": "Умойр",
+    "slug": "rakhl-umoyr",
+    "title": "Рахл-Умойр",
+    "levels": "55-60"
+  },
+  {
+    "groupName": "Умойр",
+    "slug": "vyshgorod",
+    "title": "Вышгород",
+    "levels": "55-60"
+  },
+  {
+    "groupName": "Умойр",
+    "slug": "bilevellskaya_pushcha",
+    "title": "Беливелльская пуща",
+    "levels": "83-90"
+  },
+  {
+    "groupName": "Умойр",
+    "slug": "poganyy_dol",
+    "title": "Поганый дол",
+    "levels": "85-90"
+  },
+  {
+    "groupName": "Подземелья",
+    "slug": "zachumlyonny_zamok",
+    "title": "Зачумлённый замок",
+    "levels": ""
+  },
+  {
+    "groupName": "Древний Курган",
+    "slug": "grobnitsy_kurgana",
+    "title": "Гробницы Кургана",
+    "levels": ""
+  },
+  {
+    "groupName": "Феррис",
+    "slug": "bezmolvnye_torosy",
+    "title": "Безмолвные торосы",
+    "levels": "63-63"
+  },
+  {
+    "groupName": "Феррис",
+    "slug": "gibelnye_ldy",
+    "title": "Гибельные льды",
+    "levels": "60-63"
+  },
+  {
+    "groupName": "Феррис",
+    "slug": "mglistye_gory",
+    "title": "Мглистые горы",
+    "levels": "63-63"
+  },
+  {
+    "groupName": "Феррис",
+    "slug": "laboratornyy_kompleks",
+    "title": "Лабораторный комплекс",
+    "levels": "64-64"
+  },
+  {
+    "groupName": "Аммра",
+    "slug": "nebesnye_persty",
+    "title": "Небесные персты",
+    "levels": "70-70"
+  },
+  {
+    "groupName": "Аммра",
+    "slug": "kardisskiy_peresheek",
+    "title": "Кардисский перешеек",
+    "levels": "71-71"
+  },
+  {
+    "groupName": "Аммра",
+    "slug": "dionskiy_khrebet",
+    "title": "Дионский хребет",
+    "levels": "71-72"
+  },
+  {
+    "groupName": "Аммра",
+    "slug": "spiralnyy_kryazh",
+    "title": "Спиральный кряж",
+    "levels": "72-72"
+  },
+  {
+    "groupName": "Аммра",
+    "slug": "dionskiy_arkhipelag",
+    "title": "Дионский архипелаг",
+    "levels": "73-73"
+  },
+  {
+    "groupName": "Аммра",
+    "slug": "podzemnyy_labirint",
+    "title": "Подземный лабиринт",
+    "levels": "73-73"
+  },
+  {
+    "groupName": "Аммра",
+    "slug": "zatmeniye_sklad-26",
+    "title": "\"Затмение\" - склад №26",
+    "levels": "73-73"
+  },
+  {
+    "groupName": "Аммра",
+    "slug": "kolizey",
+    "title": "Колизей",
+    "levels": "73-73"
+  },
+  {
+    "groupName": "Обитель демонов",
+    "slug": "sogot",
+    "title": "Согот",
+    "levels": "75-80"
+  },
+  {
+    "groupName": "Обитель демонов",
+    "slug": "tsitadel",
+    "title": "Цитадель",
+    "levels": "75-80"
+  },
+  {
+    "groupName": "Айрин",
+    "slug": "ayrin",
+    "title": "Айрин",
+    "levels": "90-90"
+  },
+  {
+    "groupName": "Айрин",
+    "slug": "dvorets-galeon",
+    "title": "Дворец-Галеон",
+    "levels": "90-90"
+  },
+  {
+    "groupName": "Айрин",
+    "slug": "podzemelya_ayrina",
+    "title": "Подземелья Айрина",
+    "levels": "90-90"
+  },
+  {
+    "groupName": "Суслангер",
+    "slug": "suslanger",
+    "title": "Суслангер",
+    "levels": "90-95"
+  },
+  {
+    "groupName": "Суслангер",
+    "slug": "staryy_gorod",
+    "title": "Старый город",
+    "levels": "90-95"
+  },
+  {
+    "groupName": "Эдем",
+    "slug": "edem",
+    "title": "Эдем",
+    "levels": "90-95"
+  }
+]

@@ -1,0 +1,12 @@
+{
+  "groupName": "Архипелаги Империи",
+  "slug": "fabrika_gryoz",
+  "title": "Фабрика Грёз",
+  "levels": "22-23",
+  "mapImage": "Pastel20_AE4.jpg",
+  "mapSize": {
+    "width": 1024,
+    "height": 886
+  },
+  "markers": []
+}

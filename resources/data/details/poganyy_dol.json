@@ -1,0 +1,12 @@
+{
+  "groupName": "Умойр",
+  "slug": "poganyy_dol",
+  "title": "Поганый дол",
+  "levels": "85-90",
+  "mapImage": "HuntingGround03.jpg",
+  "mapSize": {
+    "width": 1024,
+    "height": 886
+  },
+  "markers": []
+}

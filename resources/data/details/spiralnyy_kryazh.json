@@ -1,0 +1,12 @@
+{
+  "groupName": "Аммра",
+  "slug": "spiralnyy_kryazh",
+  "title": "Спиральный кряж",
+  "levels": "72-72",
+  "mapImage": "AedIsle_Centaurs.jpg",
+  "mapSize": {
+    "width": 1024,
+    "height": 886
+  },
+  "markers": []
+}

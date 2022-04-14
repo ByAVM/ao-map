@@ -1,0 +1,12 @@
+{
+  "groupName": "Святая Земля",
+  "slug": "assae_tepkh",
+  "title": "Ассаэ Тэпх",
+  "levels": "23-27",
+  "mapImage": "Pastel12_ZC1.jpg",
+  "mapSize": {
+    "width": 1024,
+    "height": 886
+  },
+  "markers": []
+}

@@ -1,0 +1,11 @@
+{
+  "slug": "svetolesye",
+  "title": "Светолесье",
+  "levels": "7-12",
+  "mapImage": "Pastel02_ZL1.jpg",
+  "mapSize": {
+    "width": 1024,
+    "height": 886
+  },
+  "markers": []
+}

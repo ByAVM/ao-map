@@ -1,0 +1,12 @@
+{
+  "groupName": "Архипелаги Империи",
+  "slug": "zdravitsa_nebesnaya",
+  "title": "Здравница \"Небесная\"",
+  "levels": "3-4",
+  "mapImage": "Sanatorium.jpg",
+  "mapSize": {
+    "width": 1024,
+    "height": 886
+  },
+  "markers": []
+}

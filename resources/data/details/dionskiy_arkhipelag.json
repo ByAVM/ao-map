@@ -1,0 +1,12 @@
+{
+  "groupName": "Аммра",
+  "slug": "dionskiy_arkhipelag",
+  "title": "Дионский архипелаг",
+  "levels": "73-73",
+  "mapImage": "AedIsle_Olimpiada.jpg",
+  "mapSize": {
+    "width": 1024,
+    "height": 886
+  },
+  "markers": []
+}

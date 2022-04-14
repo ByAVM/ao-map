@@ -1,0 +1,12 @@
+{
+  "groupName": "Аммра",
+  "slug": "podzemnyy_labirint",
+  "title": "Подземный лабиринт",
+  "levels": "73-73",
+  "mapImage": "AedIsle_Olimpiada_Maze.jpg",
+  "mapSize": {
+    "width": 1024,
+    "height": 886
+  },
+  "markers": []
+}
