@@ -15,7 +15,7 @@
     "type": "safe"
   },
   "weapon": {
-    "title": "Бой",
+    "title": "Бои",
     "image": "MarkWeapon.png",
     "type": "weapon"
   },
@@ -54,6 +54,21 @@
     "image": "MarkUpgrader.png",
     "type": "upgrader"
   },
+  "power": {
+    "title": "Место силы",
+    "image": "PlaceOfPower.png",
+    "type": "power"
+  },
+  "power_red": {
+    "title": "Место силы(красный)",
+    "image": "PlaceOfPowerEmpire.png",
+    "type": "power_red"
+  },
+  "power_blue": {
+    "title": "Место силы(синий)",
+    "image": "PlaceOfPowerLeague.png",
+    "type": "power_blue"
+  },
   "myrrh": {
     "title": "Мирра",
     "image": "MarkMyrrh.png",
@@ -68,6 +83,11 @@
     "title": "Негоциант",
     "image": "MarkRewardsExchange.png",
     "type": "rewards_exchange"
+  },
+  "unknown": {
+    "title": "Неизвестный",
+    "image": "MarkUnknown.png",
+    "type": "unknown"
   },
   "mail": {
     "title": "Почтальон",
@@ -88,6 +108,16 @@
     "title": "Ремесленник",
     "image": "MarkCrafting.png",
     "type": "crafting"
+  },
+  "ruin_blue": {
+    "title": "Руины портала",
+    "image": "MarkRuinBlue.png",
+    "type": "ruin_blue"
+  },
+  "ruin_yellow": {
+    "title": "Руины портала(желтый)",
+    "image": "MarkRuinYellow.png",
+    "type": "ruin_yellow"
   },
   "remort": {
     "title": "Специалист по необъяснимому",

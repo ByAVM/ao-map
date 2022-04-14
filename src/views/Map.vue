@@ -187,7 +187,7 @@ const handleButtonScroll = () => {
           <hr />
           <button
             v-if="state.selectedMarker"
-            class="app-button"
+            class="app-button app-button__secondary"
             @click="handleDeleteSelectedMarker"
           >
             Удалить выбранный маркер
